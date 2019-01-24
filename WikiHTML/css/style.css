@@ -1,0 +1,134 @@
+header img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-family: 'Allerta Stencil';
+    font-size: 50px;
+    margin-top: 0;
+
+}
+
+nav li{ 
+    display: inline;
+    font-family: "Krub";
+    color: white;
+}
+nav li::before {
+    content: "\25AA";
+    margin-right: 10px;
+}
+nav ul { 
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+nav ul a:link, a:visited{
+    color: white;
+}
+nav ul a:hover{
+    background-color: rgb(212, 85, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav .encours {
+    background-color: rgb(212, 85, 0);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav a{
+    text-decoration: none; 
+}
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2 xmp, h2 {
+    font-family: "Krub";
+    font-size: 30px;
+}
+h3{
+    font-family: "Krub";
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left:200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.paragraphes{
+    background-color: lightgrey;
+    margin-left: 200px; 
+    margin-right: 200px;
+    margin-top:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-family:"Krub"
+}
+.paragraphes h1, .paragraphes h2, .paragraphes h3{
+    text-align:left;
+    font-family:"Krub";
+    margin:0;
+
+}
+xpm, p{
+    font-family: "Krub";
+}
+
+.code{
+    background-color: black;
+    color:white;
+    margin-left: 200px; 
+    margin-right: 200px;
+    margin-top:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+footer{
+    margin-top:80px;
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+}
+footer p{
+    font-family: "Allerta Stencil";
+    text-align: center;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
+footer :nth-child(1){order:3;}
+footer :nth-child(2){order:1;}
+footer :nth-child(3){order:2;}
+footer :nth-child(4){order:4;}
+footer :nth-child(5){order:5;}
+footer strong{
+    margin-left: 10px;
+    color:white;
+    font-size:23px;
+}
+
+
+
