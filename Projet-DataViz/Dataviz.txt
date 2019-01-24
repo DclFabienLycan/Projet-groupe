@@ -1,0 +1,17 @@
+Réaliser une Dataviz sur les formats d'image
+ 
+
+Faire une présentation en ligne et réaliser de 1 à 4 posters tirés de la présentation en ligne
+
+Equipe Pique :
+-Francis
+-Corinne
+-Jean-Philippe
+-FabienB
+-----------------
+1push francis
+2epush francis
+
+https://github.com/dclsifufrancis/Projet-DataViz 
+
+
